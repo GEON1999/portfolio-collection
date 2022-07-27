@@ -141,21 +141,24 @@ table {
 :root {
   /* Color */
   --color-white: white;
+  --color-dark-white: rgba(255, 255, 255, 0.7);
   --color-black: black;
   --color-grey: #666665;
   --color-light-grey: rgba(1, 1, 1, 0.4);
-  --background-purple: #e1bee7;
   --color-light-purple: #fff1ff;
   --color-dark-purple: #af8eb5;
-  --background-blue: #69a0c7;
   --color-red: #ef9a9a;
-  --background-teal: #e4ffff;
   --color-light-teal: #80cbc4;
   --color-dark-teal: #81aba8;
   --color-dark-blue: #7986cb;
+  /* Background color */
+  --background-purple: #e1bee7;
+  --background-blue: #69a0c7;
+  --background-teal: #e4ffff;
+  --background-pink: #fca8a5;
   /* Font size */
-  --font-large: 58px;
-  --font-medium: 38px;
+  --font-large: 54px;
+  --font-medium: 32px;
   --font-regular: 28px;
   --font-small: 16px;
   --font-micro: 14px;
