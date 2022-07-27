@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--background-purple);
+  font-size: 28px;
+  color: var(--color-white);
+  padding: 30px 0px;
+  font-weight: var(--weight-semi-bold);
+}
+
+.nav__logo {
+  display: flex;
+  align-items: center;
+  font-size: 38px;
+  font-weight: var(--weight-bold);
+}
+
+.nav__logo__img {
+  border-image-width: 10px;
+  max-width: 38px;
+  max-height: 38px;
+  margin: 0px 15px;
+}
+
+.nav__menu {
+  display: flex;
+  margin-right: 10px;
+}
+
+.nav__menu li {
+  padding: 10px 30px;
+  border-radius: 4px;
+}
+
+.nav__menu li:hover {
+  background-color: var(--color-dark-purple);
+}
