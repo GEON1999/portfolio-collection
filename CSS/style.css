@@ -1,3 +1,58 @@
+@import "reset.css";
+/* Global */
+:root {
+  /* Color */
+  --color-white: white;
+  --color-black: black;
+  --color-grey: #7e7d7b;
+  --color-light-grey: #ebebeb;
+  --background-purple: #e1bee7;
+  --color-light-purple: #fff1ff;
+  --color-dark-purple: #af8eb5;
+  --background-green: #a5d6a7;
+
+  /* Font size */
+  --font-large: 48px;
+  --font-medium: 28px;
+  --font-regular: 18px;
+  --font-small: 16px;
+  --font-micro: 14px;
+  /* Font weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--weight-bold);
+  color: var(--color-black);
+  margin: 16px 0px;
+}
+
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0px;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0px;
+}
+
+small {
+  font-size: var(--font-micro);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 2px 0px;
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "open sans", sans-serif;
+  margin: 0px 25px;
 }
