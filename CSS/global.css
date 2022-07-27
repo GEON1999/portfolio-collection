@@ -150,9 +150,9 @@ table {
   --background-green: #a5d6a7;
 
   /* Font size */
-  --font-large: 48px;
-  --font-medium: 28px;
-  --font-regular: 18px;
+  --font-large: 58px;
+  --font-medium: 38px;
+  --font-regular: 28px;
   --font-small: 16px;
   --font-micro: 14px;
   /* Font weight */
@@ -166,28 +166,28 @@ h1 {
   font-size: var(--font-large);
   font-weight: var(--weight-bold);
   color: var(--color-black);
-  margin: 16px 0px;
+  margin: 20px 0px;
 }
 
 h2 {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
   color: var(--color-black);
-  margin: 8px 0px;
+  margin: 10px 0px;
 }
 
 p {
   font-size: var(--font-regular);
   font-weight: var(--weight-regular);
   color: var(--color-black);
-  margin: 4px 0px;
+  margin: 5px 0px;
 }
 
 small {
   font-size: var(--font-micro);
   font-weight: var(--weight-regular);
   color: var(--color-black);
-  margin: 2px 0px;
+  margin: 2.5px 0px;
 }
 
 body {
