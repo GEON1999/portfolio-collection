@@ -1,0 +1,71 @@
+.stack {
+  background-color: #e4ffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+}
+
+.skills {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  margin-top: 50px;
+  height: 450px;
+  color: var(--color-white);
+}
+
+.skills__detail {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 60%;
+  background-color: #80cbc4;
+}
+
+.skills__title {
+  margin-bottom: 10px;
+}
+
+.skills__graph {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 10px;
+}
+
+.skills__graph__detail {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 17px;
+}
+
+.skills__graph__box {
+  background-color: #b6b6b6;
+  height: 6px;
+  width: 90%;
+  align-self: center;
+  border-radius: 4px;
+}
+
+.skills__graph__coloring {
+  width: 80%;
+  height: 6px;
+  border-radius: 4px;
+  background-color: #7986cb;
+  margin: 0px;
+}
+
+.etc {
+  width: 100%;
+  background-color: #81aba8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 40%;
+}

@@ -149,6 +149,7 @@ table {
   --color-dark-purple: #af8eb5;
   --background-blue: #69a0c7;
   --color-red: #ef9a9a;
+  --background-teal: #b2dfdb;
 
   /* Font size */
   --font-large: 58px;
@@ -187,7 +188,7 @@ p {
 small {
   font-size: var(--font-micro);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
+  color: var(--color-light-grey);
   margin: 2.5px 0px;
 }
 
