@@ -142,12 +142,13 @@ table {
   /* Color */
   --color-white: white;
   --color-black: black;
-  --color-grey: #7e7d7b;
-  --color-light-grey: #ebebeb;
+  --color-grey: #666665;
+  --color-light-grey: rgba(1, 1, 1, 0.4);
   --background-purple: #e1bee7;
   --color-light-purple: #fff1ff;
   --color-dark-purple: #af8eb5;
-  --background-green: #a5d6a7;
+  --background-blue: #69a0c7;
+  --color-red: #ef9a9a;
 
   /* Font size */
   --font-large: 58px;
