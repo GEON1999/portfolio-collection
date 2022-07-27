@@ -51,7 +51,7 @@
 }
 
 .skill__wrapper span {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: var(--weight-bold);
   color: var(--color-light-black);
   margin-bottom: 150px;
@@ -83,6 +83,6 @@
 
 .carrer__detail span:nth-child(2) {
   font-size: var(--font-micro);
-  color: var(--color-grey);
+  color: var(--color-light-grey);
   margin: 8px 0px;
 }
