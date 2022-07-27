@@ -3,17 +3,18 @@
   justify-content: space-between;
   align-items: center;
   background-color: var(--background-purple);
-  font-size: 28px;
   color: var(--color-white);
-  padding: 30px 0px;
-  font-weight: var(--weight-semi-bold);
+  font-size: 24px;
+  padding-top: 13px;
+  padding-bottom: 30px;
+  margin-top: 20px;
 }
 
 .nav__logo {
   display: flex;
   align-items: center;
-  font-size: 38px;
-  font-weight: var(--weight-bold);
+  font-size: 35px;
+  font-weight: var(--weight-semi-bold);
 }
 
 .nav__logo__img {
@@ -31,6 +32,7 @@
 .nav__menu li {
   padding: 10px 30px;
   border-radius: 4px;
+  font-weight: var(--weight-regular);
 }
 
 .nav__menu li:hover {

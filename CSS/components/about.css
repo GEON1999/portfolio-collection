@@ -54,7 +54,7 @@
   font-size: 18px;
   font-weight: var(--weight-bold);
   color: var(--color-light-black);
-  margin-bottom: 150px;
+  margin-bottom: 230px;
 }
 
 .carrer {
@@ -63,7 +63,7 @@
   left: 0px;
   display: flex;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
 }
 
 .carrer img {
@@ -78,7 +78,7 @@
 }
 
 .carrer__detail span {
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .carrer__detail span:nth-child(2) {

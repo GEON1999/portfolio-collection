@@ -152,7 +152,7 @@ table {
   --color-dark-teal: #81aba8;
   --color-dark-blue: #7986cb;
   /* Background color */
-  --background-purple: #e1bee7;
+  --background-purple: #dfc6e4;
   --background-blue: #69a0c7;
   --background-teal: #e4ffff;
   --background-pink: #fca8a5;
@@ -199,5 +199,5 @@ small {
 
 body {
   font-family: "open sans", sans-serif;
-  margin: 0px 35px;
+  margin: 0px 20px;
 }
