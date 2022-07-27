@@ -149,8 +149,10 @@ table {
   --color-dark-purple: #af8eb5;
   --background-blue: #69a0c7;
   --color-red: #ef9a9a;
-  --background-teal: #b2dfdb;
-
+  --background-teal: #e4ffff;
+  --color-light-teal: #80cbc4;
+  --color-dark-teal: #81aba8;
+  --color-dark-blue: #7986cb;
   /* Font size */
   --font-large: 58px;
   --font-medium: 38px;

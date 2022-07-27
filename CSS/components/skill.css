@@ -1,5 +1,5 @@
 .stack {
-  background-color: #e4ffff;
+  background-color: var(--background-teal);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -23,7 +23,7 @@
   justify-content: center;
   align-items: center;
   flex-basis: 60%;
-  background-color: #80cbc4;
+  background-color: var(--color-light-teal);
 }
 
 .skills__title {
@@ -45,7 +45,7 @@
 }
 
 .skills__graph__box {
-  background-color: #b6b6b6;
+  background-color: var(--color-light-grey);
   height: 6px;
   width: 90%;
   align-self: center;
@@ -56,13 +56,13 @@
   width: 80%;
   height: 6px;
   border-radius: 4px;
-  background-color: #7986cb;
+  background-color: var(--color-dark-blue);
   margin: 0px;
 }
 
 .etc {
   width: 100%;
-  background-color: #81aba8;
+  background-color: var(--color-dark-teal);
   display: flex;
   flex-direction: column;
   justify-content: center;
