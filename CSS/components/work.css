@@ -1,0 +1,39 @@
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 100px 0px;
+}
+
+.work p {
+  font-weight: var(--weight-semi-bold);
+  font-size: 20px;
+  margin: 15px;
+}
+
+.menu {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 10px 30px;
+  border: 1px solid var(--color-light-grey);
+  border-radius: 5px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.projects__box {
+  width: 350px;
+  height: 300px;
+  background-color: var(--color-light-grey);
+  margin: 10px;
+}
