@@ -133,16 +133,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  box-sizing: border-box;
-}
 
 /* Global */
 :root {
   /* Color */
   --color-white: white;
   --color-black: black;
-  --color-grey: #7e7d7b;
+  --color-light-black: #5a5a5a;
+  --color-grey: rgba(1, 1, 1, 0.4);
   --color-light-grey: #ebebeb;
   --background-purple: #e1bee7;
   --color-light-purple: #fff1ff;
@@ -186,7 +184,7 @@ p {
 small {
   font-size: var(--font-micro);
   font-weight: var(--weight-regular);
-  color: var(--color-black);
+  color: rgba(1, 1, 1, 0.4);
   margin: 2.5px 0px;
 }
 
