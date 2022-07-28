@@ -1,13 +1,20 @@
 .nav {
+  position: fixed;
+  width: 97.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--background-purple);
+  background-color: transparent;
   color: var(--color-white);
   font-size: 24px;
   padding-top: 13px;
   padding-bottom: 30px;
-  margin-top: 20px;
+}
+
+.nav--colorChange {
+  background-color: var(--background-purple);
+  border-bottom: 1px solid rgb(155, 155, 154, 0.5);
+  z-index: 100;
 }
 
 .nav__logo {
