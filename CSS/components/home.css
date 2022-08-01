@@ -1,25 +1,29 @@
 .home {
   background-color: var(--background-purple);
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  align-content: center;
   padding: 20px 0px;
   color: var(--color-white);
   padding-top: 100px;
 }
 
-.home h1 {
+.home__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.home__wrapper h1 {
   color: var(--color-white);
   margin-top: 30px;
 }
 
-.home h2 {
+.home__wrapper h2 {
   color: var(--color-white);
 }
 
-.home img {
+.home__wrapper img {
   object-fit: cover;
   width: 400px;
   height: 400px;
@@ -27,7 +31,7 @@
   border: 3px solid var(--color-white);
 }
 
-.home button {
+.home__wrapper button {
   background-color: transparent;
   border: 1px solid var(--color-white);
   border-radius: 6px;

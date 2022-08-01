@@ -15,7 +15,6 @@ const clickBtn = (e) => {
     btn.classList.remove("btn-ative");
   });
   e.target.classList.add("btn-ative");
-  console.log(e.target.innerText.toLowerCase());
   const eventTarget = `.${e.target.innerText.toLowerCase()}`;
   const moveTo = document.querySelector(eventTarget);
   moveTo.scrollIntoView({ behavior: "smooth", block: "start" });
