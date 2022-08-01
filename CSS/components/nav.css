@@ -1,6 +1,6 @@
 .nav {
   position: fixed;
-  width: 97.5%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,7 +13,6 @@
 
 .nav--colorChange {
   background-color: var(--background-purple);
-  border-bottom: 1px solid rgb(155, 155, 154, 0.5);
   z-index: 100;
 }
 
