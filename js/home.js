@@ -1,7 +1,4 @@
 const contactBtn = document.querySelector(".home__contact");
-const home = document.querySelector(".home__wrapper");
-
-const homeHeight = home.getBoundingClientRect().height;
 
 const clickContact = () => {
   const target = document.querySelector(".contact");
