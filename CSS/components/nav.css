@@ -44,3 +44,7 @@
 .nav__menu li:hover {
   background-color: var(--color-dark-purple);
 }
+
+.btn-ative {
+  border: 1px solid white;
+}

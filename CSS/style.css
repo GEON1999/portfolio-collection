@@ -8,10 +8,6 @@
 @import "./components/work.css";
 @import "./components/contact.css";
 
-.btn-ative {
-  border: 1px solid white;
-}
-
 .arrow__btn {
   background-color: transparent;
   border: none;
