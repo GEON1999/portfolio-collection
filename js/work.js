@@ -3,6 +3,7 @@ const reactBtn = document.querySelector(".react__btn");
 const cssBtn = document.querySelector(".css__btn");
 const allBtn = document.querySelector(".all__btn");
 const projectItems = document.querySelectorAll(".projects__box");
+const menuBtn = document.querySelectorAll(".menu__item");
 
 const projectItemAppear = [
   { transform: "scale(0.5) translateY(-100px)" },
@@ -15,6 +16,13 @@ const projectItemTiming = {
 };
 
 const handleJsBtn = () => {
+  menuBtn.forEach((btn, index) => {
+    btn.classList.remove("menu__ative");
+    if (index == 1) {
+      btn.classList.add("menu__ative");
+    }
+  });
+
   projectItems.forEach((item) => {
     if (item.dataset.skills === "js") {
       item.style.display = "block";
@@ -25,6 +33,12 @@ const handleJsBtn = () => {
   });
 };
 const handleReactBtn = () => {
+  menuBtn.forEach((btn, index) => {
+    btn.classList.remove("menu__ative");
+    if (index == 2) {
+      btn.classList.add("menu__ative");
+    }
+  });
   projectItems.forEach((item) => {
     if (item.dataset.skills === "react") {
       item.style.display = "block";
@@ -36,6 +50,12 @@ const handleReactBtn = () => {
 };
 
 const handleCssBtn = () => {
+  menuBtn.forEach((btn, index) => {
+    btn.classList.remove("menu__ative");
+    if (index == 3) {
+      btn.classList.add("menu__ative");
+    }
+  });
   projectItems.forEach((item) => {
     if (item.dataset.skills === "css") {
       item.style.display = "block";
@@ -47,6 +67,12 @@ const handleCssBtn = () => {
 };
 
 const handleAllBtn = () => {
+  menuBtn.forEach((btn, index) => {
+    btn.classList.remove("menu__ative");
+    if (index == 0) {
+      btn.classList.add("menu__ative");
+    }
+  });
   projectItems.forEach((item) => {
     item.style.display = "block";
     item.animate(projectItemAppear, projectItemTiming);

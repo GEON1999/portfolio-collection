@@ -37,3 +37,7 @@
   background-color: var(--color-light-grey);
   margin: 10px;
 }
+
+.menu__ative {
+  background-color: var(--background-purple);
+}
