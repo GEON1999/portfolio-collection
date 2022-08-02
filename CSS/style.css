@@ -66,6 +66,11 @@
     text-align: center;
   }
 
+  /* text align in about */
+  .carrer__detail {
+    text-align: start;
+  }
+
   /* Typography */
   h1 {
     font-size: 40px;
@@ -77,5 +82,9 @@
 
   p {
     font-size: 20px;
+  }
+
+  button {
+    padding: 0;
   }
 }
