@@ -1,4 +1,4 @@
-@import "global.css";
+@import "./global.css";
 
 /* Components */
 @import "./components/nav.css";
