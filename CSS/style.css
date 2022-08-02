@@ -23,3 +23,59 @@
 .arrow__btn:hover {
   transform: scale(1.2);
 }
+
+@media screen and (max-width: 900px) {
+  /* Toggle btn */
+  .mobile__menu__btn {
+    display: block;
+    z-index: 2;
+  }
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: var(--background-purple);
+    z-index: 1;
+  }
+  .nav__menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+  .nav__menu--open {
+    display: block;
+  }
+
+  /* Sorting skill*/
+  .skill {
+    flex-direction: column;
+  }
+
+  /* Sorting home text */
+  .home__wrapper img {
+    width: 300px;
+    height: 300px;
+  }
+  .home__wrapper {
+    text-align: center;
+  }
+
+  /* Soring contact text */
+  .contact {
+    text-align: center;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}

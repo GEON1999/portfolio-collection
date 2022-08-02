@@ -17,11 +17,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .menu__item {
   padding: 10px 30px;
-  border: 1px solid var(--color-light-grey);
+  border: 1px solid rgb(211, 211, 211);
   border-radius: 5px;
 }
 
@@ -39,5 +41,6 @@
 }
 
 .menu__ative {
-  background-color: var(--background-purple);
+  background-color: var(--background-pink);
+  color: white;
 }

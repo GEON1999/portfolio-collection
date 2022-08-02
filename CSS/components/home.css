@@ -12,6 +12,7 @@
   flex-direction: column;
   align-items: center;
   align-content: center;
+  justify-content: center;
 }
 
 .home__wrapper h1 {
@@ -25,8 +26,8 @@
 
 .home__wrapper img {
   object-fit: cover;
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
   border-radius: 50%;
   border: 3px solid var(--color-white);
 }
