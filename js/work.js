@@ -1,6 +1,5 @@
 const jsBtn = document.querySelector(".js__btn");
 const reactBtn = document.querySelector(".react__btn");
-const cssBtn = document.querySelector(".css__btn");
 const allBtn = document.querySelector(".all__btn");
 const projectItems = document.querySelectorAll(".projects__box");
 const menuBtn = document.querySelectorAll(".menu__item");
@@ -49,23 +48,6 @@ const handleReactBtn = () => {
   });
 };
 
-const handleCssBtn = () => {
-  menuBtn.forEach((btn, index) => {
-    btn.classList.remove("menu__ative");
-    if (index == 3) {
-      btn.classList.add("menu__ative");
-    }
-  });
-  projectItems.forEach((item) => {
-    if (item.dataset.skills === "css") {
-      item.style.display = "block";
-      item.animate(projectItemAppear, projectItemTiming);
-    } else {
-      item.style.display = "none";
-    }
-  });
-};
-
 const handleAllBtn = () => {
   menuBtn.forEach((btn, index) => {
     btn.classList.remove("menu__ative");
@@ -81,5 +63,4 @@ const handleAllBtn = () => {
 
 jsBtn.addEventListener("click", handleJsBtn);
 reactBtn.addEventListener("click", handleReactBtn);
-cssBtn.addEventListener("click", handleCssBtn);
 allBtn.addEventListener("click", handleAllBtn);
