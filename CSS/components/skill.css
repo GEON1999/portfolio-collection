@@ -52,14 +52,45 @@
   border-radius: 4px;
 }
 
-.skills__graph__coloring {
-  width: 80%;
+.skills__graph__coloring_html {
+  width: 90%;
   height: 6px;
   border-radius: 4px;
   background-color: var(--color-dark-blue);
   margin: 0px;
 }
 
+.skills__graph__coloring_css {
+  width: 75%;
+  height: 6px;
+  border-radius: 4px;
+  background-color: var(--color-dark-blue);
+  margin: 0px;
+}
+
+.skills__graph__coloring_js {
+  width: 65%;
+  height: 6px;
+  border-radius: 4px;
+  background-color: var(--color-dark-blue);
+  margin: 0px;
+}
+
+.skills__graph__coloring_next {
+  width: 75%;
+  height: 6px;
+  border-radius: 4px;
+  background-color: var(--color-dark-blue);
+  margin: 0px;
+}
+
+.skills__graph__coloring_react {
+  width: 70%;
+  height: 6px;
+  border-radius: 4px;
+  background-color: var(--color-dark-blue);
+  margin: 0px;
+}
 .etc {
   width: 100%;
   background-color: var(--color-dark-teal);

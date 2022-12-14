@@ -40,7 +40,7 @@ const handleReactBtn = () => {
     }
   });
   projectItems.forEach((item) => {
-    if (item.dataset.skills === "react") {
+    if (item.dataset.skills === "react&next") {
       item.style.display = "block";
       item.animate(projectItemAppear, projectItemTiming);
     } else {
