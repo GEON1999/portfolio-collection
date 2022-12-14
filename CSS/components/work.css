@@ -39,23 +39,16 @@
   width: 350px;
   height: 300px;
   background-color: white;
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.projects__box:last-child {
-  width: 250px;
-  height: 200px;
-  background-color: white;
   margin: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.projects__box:hover {
+  padding-bottom: 20px;
 }
 
 .projects__img {
